@@ -143,8 +143,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 982.0, 564.0, 166.0, 22.0 ],
-					"text" : "mcs.nn~ darbouka_nl encode"
+					"patching_rect" : [ 982.0, 564.0, 136.0, 22.0 ],
+					"text" : "mcs.nn~ engine encode"
 				}
 
 			}
@@ -836,8 +836,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 780.0, 544.0, 166.0, 22.0 ],
-					"text" : "mcs.nn~ darbouka_nl decode"
+					"patching_rect" : [ 780.0, 544.0, 136.0, 22.0 ],
+					"text" : "mcs.nn~ engine decode"
 				}
 
 			}
@@ -1866,14 +1866,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
+					"destination" : [ "obj-14", 3 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 3 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1999,14 +1999,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "freeverb.gendsp",
 				"bootpath" : "~/Documents/Max 8/Library",
