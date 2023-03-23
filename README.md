@@ -1,1 +1,2 @@
-Experiments in latent space exploration using [RAVE](https://github.com/acids-ircam/RAVE) and Max.
+Interactive latent space exploration using [RAVE](https://github.com/acids-ircam/RAVE) and Max.
+[Used models](https://drive.google.com/drive/folders/13pa3JBwNtKjXd1AGHRz6QiC2fxmLtJgg?usp=sharing) have been trained for research purposes only.
